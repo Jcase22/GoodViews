@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { Typography } from '@mui/material'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello World!</h1>
+        <Typography sx={{color: 'black'}}>Hello World!</Typography>
       </div>
     )
   }
